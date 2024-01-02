@@ -1,0 +1,7 @@
+Application has thrown an uncaught exception and is terminated:
+Error: "next start" does not work with "output: export" configuration. Use "npx serve@latest out" instead.
+    at E:\__00vimlesh\nextjsoniis\node_modules\next\dist\server\next.js:208:31
+    at async NextServer.prepare (E:\__00vimlesh\nextjsoniis\node_modules\next\dist\server\next.js:152:24)
+    at async initializeImpl (E:\__00vimlesh\nextjsoniis\node_modules\next\dist\server\lib\render-server.js:91:5)
+    at async initialize (E:\__00vimlesh\nextjsoniis\node_modules\next\dist\server\lib\router-server.js:107:22)
+    at async NextCustomServer.prepare (E:\__00vimlesh\nextjsoniis\node_modules\next\dist\server\next.js:240:28)
