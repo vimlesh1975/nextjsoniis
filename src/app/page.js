@@ -22,6 +22,8 @@ const Home = () => {
   return (
     <div>
     <button onClick={fetchSessionData}>Get pfp session</button>
+    <h1>Hi Vimlesh 1234</h1>
+
       <h1>user_id= {sessionData.user_id}</h1>
       <h1>Email= {sessionData.email}</h1>
     </div>

@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    basePath: '/nextjs',
+    basePath: '/pbns/dmam/billing/payment',
 }
 
 module.exports = nextConfig

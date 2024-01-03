@@ -1,14 +1,18 @@
 This is a test for hoisting nextjs app in iis running PHP website. And integrate nextjs app with existing PHP session.
 
-As php website will be ruuning as main service in http://localhost our nextjs server should be on inside it. so in iis we create a sub sub website within default website.
+As php website will be ruuning as main service in http://localhost our nextjs server should be on inside it. so in iis we create a vitual directory within default website.
 
-server can be accessed on http://localhost/nextjs
+Suppose we need to server from http://localhost/pbns/dmam/billing/payment
 
-because in next.config.js 
+we need to make a virtual directory naming payment in c:/inetpub/wwwroot/pbns/dmam/billing/
+
+server can be accessed on http://localhost/pbns/dmam/billing/payment
+
+And in next.config.js 
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    basePath: '/nextjs',
+    basePath: 'pbns/dmam/billing/payment',
 }
 
 module.exports = nextConfig
