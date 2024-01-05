@@ -1,0 +1,7 @@
+To access the environment variables (.env) from client-side you have to prefix the variables with NEXT_PUBLIC_
+
+serverless-mysql giving error in iisnode as 'response in not in proper sequence' , so i used mysql2
+
+basePath: process.env.NEXT_PUBLIC_BASE_URL for nextjs project to integrate in iisnode
+
+We need to make a virtual folder of last base_url folder in iis and point it to nextjs project root folder
